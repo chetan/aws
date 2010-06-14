@@ -11,12 +11,12 @@ testglobs = ["test/ts_right_aws.rb"]
 begin
     require 'jeweler'
     Jeweler::Tasks.new do |gem|
-        gem.name = "aws"
-        gem.summary = "AWS Ruby Library for interfacing with Amazon Web Services."
-        gem.email = "travis@appoxy.com"
-        gem.homepage = "http://github.com/appoxy/aws/"
-        gem.description = "AWS Ruby Library for interfacing with Amazon Web Services."
-        gem.authors = ["Travis Reeder", "Chad Arimura", "RightScale"]
+        gem.name = "cmeiklejohn-aws"
+        gem.summary = "AWS Ruby Library for interfacing with Amazon Web Services.  Forked to resolve issues with using this outside of Rails, and with non-upcased locations."
+        gem.email = "christopher.meiklejohn@gmail.com"
+        gem.homepage = "http://github.com/cmeiklejohn/aws"
+        gem.description = "AWS Ruby Library for interfacing with Amazon Web Services.  Forked to resolve issues with using this outside of Rails, and with non-upcased locations."
+        gem.authors = ["Christopher Meiklejohn", "Travis Reeder", "Chad Arimura", "RightScale"]
         gem.files = FileList['lib/**/*.rb']
         gem.add_dependency 'uuidtools'
         gem.add_dependency 'http_connection'
