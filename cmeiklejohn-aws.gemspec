@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{cmeiklejohn-aws}
-  s.version = "2.3.8"
+  s.version = "2.3.13"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Christopher Meiklejohn", "Travis Reeder", "Chad Arimura", "RightScale"]
-  s.date = %q{2010-06-14}
+  s.date = %q{2010-07-09}
   s.description = %q{AWS Ruby Library for interfacing with Amazon Web Services.  Forked to resolve issues with using this outside of Rails, and with non-upcased locations.}
   s.email = %q{christopher.meiklejohn@gmail.com}
   s.extra_rdoc_files = [
@@ -22,6 +22,7 @@ Gem::Specification.new do |s|
      "lib/awsbase/benchmark_fix.rb",
      "lib/awsbase/right_awsbase.rb",
      "lib/awsbase/support.rb",
+     "lib/cmeiklejohn/string.rb",
      "lib/ec2/right_ec2.rb",
      "lib/ec2/right_mon_interface.rb",
      "lib/elb/elb_interface.rb",
