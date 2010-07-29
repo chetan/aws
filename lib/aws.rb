@@ -13,6 +13,7 @@ require 'rubygems'
 require 'right_http_connection'
 
 $:.unshift(File.dirname(__FILE__))
+require 'cmeiklejohn/string'
 require 'awsbase/benchmark_fix'
 require 'awsbase/support'
 require 'awsbase/right_awsbase'
